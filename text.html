@@ -1,0 +1,185 @@
+<div class="col-lg-12" id="dataPemerintah">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-header bg-white">
+
+                    <table style="width:100%">
+                        <tr>
+                            <td rowspan="2" style="width: 40px">
+                                <img src="{{asset('/uploads/sengketa-logo_pas.png')}}" style="width:30px">
+                            </td>
+                            <td>
+                                <h5 color="text-dark" style="margin-bottom: 0px !important">
+                                    Bidding Pengacara
+                                </h5>
+                            </td>
+                            <td class="text-end" rowspan="2">
+                                <a href="{{url('')}}/bidding-pengacara" class="text-success fw-bold" style="text-decoration: none">Lihat
+                                    Semua</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="mb-0">Total Kasus <span class="badge bg-danger">4,512</span></p>
+                            </td>
+                        </tr>
+                    </table>
+
+                </div>
+                <div class="card-body  bg-card-dark-mode">
+                    @foreach($bid_pemerintah as $bpm)
+                    <div class="col-lg-4 mt-2 mb-2">
+                        <div class="card">
+                            <div class="card-header text-white px-3 py-1  bg-secondary">
+                                <div class="row">
+                                    <div class="col-lg-12 text-center">
+                                        <h5 class="mb-0 text-center">Data Terusan</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <!-- Modal -->
+                                <div class="modal fade" id="podcastPemerintah" tabindex="-1" aria-labelledby="podcastLawyer" aria-hidden="true">
+                                    <div class="modal-dialog modal-xl">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <div class="row g-0">
+                                                    <div class="col-12">
+                                                        <h5 id="exampleModalLabel">Podcast Sengketa Tanah
+                                                        </h5>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <small class="text-dark">
+                                                            Hasil Wawancara Korban
+                                                        </small>
+                                                    </div>
+                                                </div>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="row justify-content-center">
+                                                    <div class="col-lg-6">
+                                                        <div class="card bg-dark rounded-0" width="100%" style="height:200px">
+                                                            <div class="card-body center">
+                                                                <h3 class="text-white text-uppercase text-center">
+                                                                    Belum ada Video
+                                                                </h3>
+                                                            </div>
+                                                        </div>
+                                                        <table class="table">
+                                                            <tr>
+                                                                <td> Korban</td>
+                                                                <td>:</td>
+                                                                <td>&nbsp;Rival Santoso</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Jenis Sengketa</td>
+                                                                <td>:</td>
+                                                                <td>&nbsp;Sengketa Pertanahan</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Lokasi</td>
+                                                                <td>:</td>
+                                                                <td>&nbsp;Ngawi, Jawa Timur</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Luas</td>
+                                                                <td>:</td>
+                                                                <td>&nbsp;12.3 Ha</td>
+                                                            </tr>
+                                                        </table>
+                                                        <div class="d-grid gap-2">
+                                                            <button class="alert alert-warning mt-2" type="button">Keterangan: Data sengketa
+                                                                tanah
+                                                                ini telah diterima oleh Platform
+                                                                Sengketa Tanah dan akan diteruskan pada
+                                                                instansi
+                                                                terkait. </button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div class="row">
+                                                            <div class="d-flex flex-column col-md-12">
+                                                                <div class="coment-bottom bg-white p-1">
+                                                                    <div class="d-flex flex-row add-comment-section mt-4 mb-4">
+                                                                        <img class="img-fluid img-responsive rounded-circle me-2" src="https://i.imgur.com/qdiP4DB.jpg" width="38">
+                                                                        <input type="text" class="form-control me-3 rounded-0" placeholder="Tambah Komentar">
+                                                                        <button class="btn btn-primary rounded-0" type="button">Komentar</button>
+                                                                    </div>
+                                                                    <hr>
+                                                                    <div class="center">
+                                                                        <h3 class="text-dark text-uppercase text-center">
+                                                                            Belum ada Komentar
+                                                                        </h3>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="row" style="margin-top:-20px">
+                                                    <div class="col-12 p-2">
+                                                        <span class="fa-stack fa-lg float-end">
+                                                            <i class="fa fa-circle fa-stack-2x " style="text-shadow: -3px 3px 5px #bbbbbb;"></i>
+                                                            <i class="fa-solid fa-share fa-stack-1x fa-inverse"></i>
+                                                        </span> <span class="float-start mt-2">Bagikan Video
+                                                            ini</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <table>
+                                    <tr>
+                                        <td>Owner/Korban</td>
+                                        <td></td>
+                                        <td>:</td>
+                                        <td>&nbsp;{{$bpm['owner']}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Objek Sengketa</td>
+                                        <td></td>
+                                        <td>:</td>
+                                        <td>&nbsp;{{$bpm['objek']}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Luas Objek</td>
+                                        <td></td>
+                                        <td>:</td>
+                                        <td>&nbsp;{{$bpm['luas']}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Lokasi</td>
+                                        <td></td>
+                                        <td>:</td>
+                                        <td>&nbsp;{{$bpm['lokasi']}}</td>
+                                    </tr>
+                                    <!--<tr>-->
+                                    <!--    <td>Status Data</td>-->
+                                    <!--    <td></td>-->
+                                    <!--    <td>:</td>-->
+                                    <!--    <td></td>-->
+                                    <!--</tr>-->
+                                </table>
+                                <div class="row justify-content-center no-gutters">
+                                    <div class="col-12">
+                                        <div class="d-grid gap-2">
+                                            <button class="alert alert-warning mt-2" type="button">Keterangan:
+                                                Data sengketa tanah ini telah diterima oleh Platform
+                                                Sengketa Tanah dan akan diteruskan pada instansi terkait.
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    @endforeach
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

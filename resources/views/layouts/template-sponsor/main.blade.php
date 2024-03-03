@@ -1,0 +1,5 @@
+@include('layouts.template-sponsor.head')
+@include('layouts.template-sponsor.sidebar')
+@include('layouts.template-sponsor.header')
+@yield('content')
+@include('layouts.template-sponsor.footer')

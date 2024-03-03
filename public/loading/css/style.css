@@ -1,0 +1,50 @@
+body{
+    background-color: #333;
+    text-align: center;
+}
+
+h2{
+    font-size: 60px;
+    color: #fff;
+    font-family: 'arial';
+    margin-top: 200px;
+    margin-bottom: 60px;
+}
+
+.bar{
+    width: 600px;
+    border: 1px solid #fff;
+    height: 20px;
+    margin: 0 auto;
+}
+
+.full{
+    background-color: #fff;
+    width: 0;
+    height: 20px;
+    display: block;
+}
+
+.pourcentage{
+    margin-left: 580px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    color: #fff;
+}
+
+h3{
+    font-size: 30px;
+    color: #fff;
+    font-family: 'arial';
+    margin-top: 20px;
+    display: none;
+}
+a{
+    font-size: 30px;
+    color: #fff;
+    font-family: 'arial';
+    margin-top: 20px;
+    display: none;
+}
